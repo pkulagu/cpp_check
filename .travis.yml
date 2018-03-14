@@ -1,3 +1,5 @@
-language: c++
+./configure && make && make test
+language: cpp
 os: windows
-script: make
+script: scons
+compiler: clang
